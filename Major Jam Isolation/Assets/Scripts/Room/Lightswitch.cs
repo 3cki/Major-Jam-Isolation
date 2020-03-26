@@ -8,7 +8,7 @@ public class Lightswitch : MonoBehaviour
 
     void Start()
     {
-        lightswitch.transform.localRotation = new Quaternion(transform.localRotation.x, transform.localRotation.y, transform.localRotation.z, transform.localRotation.w);
+        lightswitch.transform.localEulerAngles = new Vector3(35, transform.localEulerAngles.y, transform.localEulerAngles.z);
     }
 
     // Update is called once per frame
